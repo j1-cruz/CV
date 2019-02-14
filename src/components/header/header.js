@@ -5,25 +5,24 @@ export default class Header extends Component {
     return (
       <React.Fragment>
       {/*generated code*/}
-      <header id="home">
+      <header id="home" className="filterimg">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-            <ul id="nav2" className="nav2">
+            <ul id="nav" >
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
                <li><a className="smoothscroll" href="#resume">Resume</a></li>
+               <li><a className="smoothscroll" href="#skills">Skills</a></li>
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
-
          <div className="row banner">
+            <div className="cc-profile-image"><img src="images/anthony.jpg" alt="Image"/></div>
             <div className="banner-text">
-               <h1 className="responsive-headline">Soy {resumeData.name}</h1>
-               <h3> {resumeData.role}{resumeData.roleDescription}
-               </h3>
+               <h2 className="responsive-headline text-white">{resumeData.name}</h2>
+               <h3> {resumeData.role}</h3>
                <hr/>
                <ul className="social">
                   {

@@ -1,9 +1,5 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -33,12 +29,19 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header.jpg) no-repeat top center;
+   background: #360033;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
+
+.bgdblue {
+  
+}
+
 
 /* vertically center banner section */
 header:before {
@@ -188,8 +191,8 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding-top: 20px;
+   padding-bottom: 20px;
    overflow: hidden;
 }
 
@@ -234,6 +237,20 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
+
+#skills {
+   background: #fff;
+   overflow: hidden;
+}
+#skills h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
 
 #resume {
    background: #fff;
@@ -365,6 +382,11 @@ ul#nav li.current a { color: #F06000; }
     -moz-animation: expressjs 2s ease;
     -webkit-animation: expressjs 2s ease;
 }
+.vue {
+    width: 30%;
+    -moz-animation: vuejs 2s ease;
+    -webkit-animation: vuejs 2s ease;
+}
 
 @-moz-keyframes bootstrap {
   0%   { width: 0px;  }
@@ -390,6 +412,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-moz-keyframes vuejs {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
 
 @-webkit-keyframes bootstrap {
   0%   { width: 0px;  }
@@ -414,6 +440,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes reactjs {
   0%   { width: 0px;  }
   100% { width: 80%;  }
+}
+@-webkit-keyframes vuejs {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -469,7 +499,7 @@ ul#nav li.current a { color: #F06000; }
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   background: url(../images/overlay-bg.png) repeat;
+   background: url(/images/overlay-bg.png) repeat;
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
@@ -649,7 +679,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(/public/images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;

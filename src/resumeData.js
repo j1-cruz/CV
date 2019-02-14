@@ -1,117 +1,93 @@
 let resumeData = {
+  "id": 0,
   "imagebaseurl":"https://techonoeticsclub.github.io/",
-  "name": "Juan Cruz",
+  "name": "Juan Cruz Membrilla",
   "role": "Frontend Developer",
   "linkedinId":"Your LinkedIn Id",
   "skypeid": "Your skypeid",
-  "roleDescription": " (en foramación). Me gusta incursionar en varias partes del desarrollo frontend y me gusta aprender sobre nuevas tecnologías. Enfoncado (en un principio) en la utilización de JS",
+  "roleDescription": "Me gusta incursionar en varias partes del desarrollo frontend y seguir aprendiendo sobre nuevas tecnologías. Enfoncado (en un principio) en la utilización de JS",
   "socialLinks":[
       {
+        "id": 0,
         "name":"linkedin",
         "url":"https://www.linkedin.com/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"github",
+        "id": 1,
+        "name":"instagram",
         "url":"http://github.com/",
-        "className":"fa fa-github"
+        "className":"fa fa-instagram"
       },
       {
-        "name":"skype",
+        "id": 2,
+        "name":"facebook",
         "url":"http://skype.com",
-        "className":"fa fa-skype"
+        "className":"fa fa-facebook"
       }
     ],
-  "aboutme":"Autodidacta. Estoy aprendiendo desarrollo web full stack utlizando java script",
-  "address":"Argentina",
-  "website":"https://www.codeclassifiers.com",
+
   "education":[
     {
-      "UniversityName":"Mumbai University",
-      "specialization":"Some specialization",
-      "MonthOfPassing":"Jan",
-      "YearOfPassing":"2018",
-      "Achievements":"Some Achievements"
+      "id": 0,
+      "UniversityName":"Escuela media n° 1 - Ayacucho",
     },
     {
-      "UniversityName":"Some University",
-      "specialization":"Some specialization",
-      "MonthOfPassing":"Jan",
-      "YearOfPassing":"2018",
-      "Achievements":"Some Achievements"
+      "id": 1,
+      "UniversityName":"Universidad Nacional de Mar del Plata.  Abogacia(cursando)",
     }
   ],
-  "work":[
-    {
-      "CompanyName":"Some Company",
-      "specialization":"Some specialization",
-      "MonthOfLeaving":"Jan",
-      "YearOfLeaving":"2018",
-      "Achievements":"Some Achievements"
-    },
-    {
-      "CompanyName":"Some Company",
-      "specialization":"Some specialization",
-      "MonthOfLeaving":"Jan",
-      "YearOfLeaving":"2018",
-      "Achievements":"Some Achievements"
-    }
-  ],
+  
   "skillsDescription":"Your skills here",
   "skills":[
     {
+      "id": 0,
       "skillname":"HTML5"
     },
     {
+      "id": 1,
       "skillname":"CSS"
     },
     {
+      "id": 2,
       "skillname":"Reactjs"
     },
     {
+      "id": 3,
       "skillname":"Bootstrap"
     },
     {
+      "id": 4,
       "skillname":"Nodejs"
     },
     {
+      "id": 5,
       "skillname":"Express"
     },
     {
+      "id": 6,
       "skillname":"Git"
+    },
+    {
+      "id": 7,
+      "skillname":"Vue"
     }
   ],
   "portfolio":[
     {
-      "name":"project1",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/phone.jpg"
+      "id": 0,
+      "name":"Sitio web (radio)",
+      "description":"Stio web de radio local(Ayacucho) en construcción. Utilizando React y Boostrap",
+      "imgurl":"images/portfolio/phone.jpg",
+      "url": ""
     },
     {
-      "name":"project2",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/project.jpg"
+      "id": 1,
+      "name":"Sitio web (ventas)",
+      "description":"Sitio web de venta de productos. En construcción. Utlizando React y Bootstrap",
+      "imgurl":"images/portfolio/project.jpg",
+      "url": "https://www.perlanonna.tk/"
     },
-    {
-      "name":"project3",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/project2.png"
-    },
-    {
-      "name":"project4",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/phone.jpg"
-    }
-  ],
-  "testimonials":[
-    {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    },
-    {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    }
   ]
 }
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/header/header';
 import About from './components/about/about';
 import Resume from './components/resume/resume';
+import Skills from './components/skills/Skills';
 import Portfolio from './components/portfolio/portfolio';
 import Testimonials from  './components/testimonials/testimonials';
 import ContactUs from './components/contactus/contactus';
@@ -14,8 +15,8 @@ class App extends Component {
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
+        <Skills resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
-        <Testimonials resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>
