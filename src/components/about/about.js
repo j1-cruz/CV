@@ -11,7 +11,7 @@ export default class About extends Component {
               <div className="card-body">
                 <div className="h4 mt-0 title">About</div>
                 <p>Hola! soy  Juan Cruz Membrilla. Desarrollador web autodidacta .</p>
-                <p>{resumeData.roleDescription}.<a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
+                <p>{resumeData.roleDescription}.</p>
               </div>
             </div>
             <div className="col-lg-6 col-md-12">

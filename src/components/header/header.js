@@ -19,7 +19,7 @@ export default class Header extends Component {
             </ul>
          </nav>
          <div className="row banner">
-            <div className="cc-profile-image"><img src="images/anthony.jpg" alt="Image"/></div>
+            <div className="cc-profile-image"><img src="images/anthony.jpg" alt="perfil"/></div>
             <div className="banner-text">
                <h2 className="responsive-headline text-white">{resumeData.name}</h2>
                <h3> {resumeData.role}</h3>
