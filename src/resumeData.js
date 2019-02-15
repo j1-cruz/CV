@@ -1,6 +1,6 @@
 let resumeData = {
   "id": 0,
-  "imagebaseurl":"https://j1-cruz.github.io/",
+  "imagebaseurl":"https://CV.github.io/",
   "name": "Juan Cruz Membrilla",
   "role": "Frontend Developer",
   "linkedinId":"Your LinkedIn Id",
