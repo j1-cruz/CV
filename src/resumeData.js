@@ -1,6 +1,5 @@
 let resumeData = {
   "id": 0,
-  "imagebaseurl":"https://CV.github.io/",
   "name": "Juan Cruz Membrilla",
   "role": "Frontend Developer",
   "linkedinId":"Your LinkedIn Id",
@@ -77,15 +76,15 @@ let resumeData = {
     {
       "id": 0,
       "name":"Sitio web (radio)",
-      "description":"Stio web de radio local(Ayacucho) en construcción. Utilizando React y Boostrap",
-      "imgurl":"images/portfolio/phone.jpg",
-      "url": ""
+      "description":"Stio web de radio  (en construcción). Utilizando React y Boostrap",
+      "imgurl":"images/portfolio/fm88.jpg",
+      "url": "https://www.fm88ayacucho.tk/"
     },
     {
       "id": 1,
       "name":"Sitio web (ventas)",
-      "description":"Sitio web de venta de productos. En construcción. Utlizando React y Bootstrap",
-      "imgurl":"images/portfolio/project.jpg",
+      "description":"Sitio web de venta de productos (en construcción). Utlizando React y Bootstrap",
+      "imgurl":"images/portfolio/perlanonna.png",
       "url": "https://www.perlanonna.tk/"
     },
   ]

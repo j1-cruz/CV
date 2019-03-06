@@ -2,8 +2,10 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://j1-cruz.github.io/CV/",
   "dependencies": {
     "bootstrap": "^4.3.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "popper": "^1.0.1",
     "popper.js": "^1.14.7",
@@ -15,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {

@@ -9,11 +9,16 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="card text-white col">
-                  <img src={`${item.imgurl}`} className="card-img img-fluid" alt={item.name} />
-                  <div className="card-img-overlay">
-                    <h5 className="card-title">{item.name}</h5>
-                    <p className="card-text">{item.description}</p>
+                <div className="col-6">
+                <div className="row">
+                <div className="col-6">
+                  <img src={`${item.imgurl}`}  width={200} heigth={200} alt={item.name} />
+                </div>
+                  <div className="col-6">
+                    <h4 className="">{item.name}</h4>
+                    <p className="">{item.description}</p>
+                    <a href={item.url}>ir</a>
+                  </div>
                   </div>
                 </div>
               )
