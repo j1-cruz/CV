@@ -29,7 +29,7 @@ let resumeData = {
   "skills":[
     {
       "id": 0,
-      "skillname":"HTML5"
+      "skillname":"HTML"
     },
     {
       "id": 1,
@@ -37,26 +37,30 @@ let resumeData = {
     },
     {
       "id": 2,
-      "skillname":"Reactjs"
+      "skillname":"JavaScript"
     },
     {
       "id": 3,
-      "skillname":"Bootstrap"
+      "skillname":"Reactjs"
     },
     {
       "id": 4,
-      "skillname":"Nodejs"
+      "skillname":"Bootstrap"
     },
     {
       "id": 5,
-      "skillname":"Express"
+      "skillname":"Nodejs"
     },
     {
       "id": 6,
-      "skillname":"Git"
+      "skillname":"Express"
     },
     {
       "id": 7,
+      "skillname":"Git"
+    },
+    {
+      "id": 8,
       "skillname":"Vue"
     }
   ],

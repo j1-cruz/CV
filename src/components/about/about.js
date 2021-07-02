@@ -10,13 +10,13 @@ export default class About extends Component {
             <div className="col-lg-6 col-md-12">
               <div className="card-body">
                 <div className="h4 mt-0 title">About</div>
-                <p>Hola! soy  Juan Cruz Membrilla. Desarrollador web front end .</p>
+                <p>Hi! I'am  Juan Cruz Membrilla. Developer web front end.</p>
                 <p>{resumeData.roleDescription}.</p>
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="card-body">
-                <div className="h4 mt-0 title">Información Personal</div>
+                <div className="h4 mt-0 title">Personal information</div>
                 <div className="row">
                   <div className="col-sm-4"><strong className="text-uppercase">Age:</strong></div>
                   <div className="col-sm-8">30</div>
@@ -30,12 +30,12 @@ export default class About extends Component {
                   <div className="col-sm-8">mebrillajc@gmail.com</div>
                 </div>
                 <div className="row mt-3">
-                  <div className="col-sm-4"><strong className="text-uppercase">Cel:</strong></div>
+                  <div className="col-sm-4"><strong className="text-uppercase">Mobile: </strong></div>
                   <div className="col-sm-8">2494-481402</div>
                 </div>
                 <div className="row mt-3">
                   <div className="col-sm-4"><strong className="text-uppercase">Ingles:</strong></div>
-                  <div className="col-sm-8">Basico</div>
+                  <div className="col-sm-8">Basic</div>
                 </div>
               </div>
             </div>
