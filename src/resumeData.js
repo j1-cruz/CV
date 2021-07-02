@@ -4,25 +4,13 @@ let resumeData = {
   "role": "Frontend Developer",
   "linkedinId":"Your LinkedIn Id",
   "skypeid": "Your skypeid",
-  "roleDescription": "Me gusta incursionar en varias partes del desarrollo frontend y seguir aprendiendo sobre nuevas tecnologías. Enfoncado (en un principio) en la utilización de JS",
+  "roleDescription": "Me gusta incursionar en varias partes del desarrollo y seguir aprendiendo sobre nuevas tecnologías. Enfoncado (en un principio) en la utilización de Java Script",
   "socialLinks":[
       {
         "id": 0,
         "name":"linkedin",
-        "url":"https://www.linkedin.com/",
+        "url":"https://www.linkedin.com/in/membrilla-juan-cruz-065019175",
         "className":"fa fa-linkedin"
-      },
-      {
-        "id": 1,
-        "name":"instagram",
-        "url":"http://github.com/",
-        "className":"fa fa-instagram"
-      },
-      {
-        "id": 2,
-        "name":"facebook",
-        "url":"http://skype.com",
-        "className":"fa fa-facebook"
       }
     ],
 
@@ -33,7 +21,7 @@ let resumeData = {
     },
     {
       "id": 1,
-      "UniversityName":"Universidad Nacional de Mar del Plata.  Abogacia(cursando)",
+      "UniversityName":"Tecnicatura superior en análisis de sitema Cursando 2° año. Instituto de formacion Ayacucho",
     }
   ],
   
@@ -78,7 +66,7 @@ let resumeData = {
       "name":"Sitio web (radio)",
       "description":"Stio web de radio  (en construcción). Utilizando React y Boostrap",
       "imgurl":"images/portfolio/fm88.jpg",
-      "url": "https://www.fm88ayacucho.tk/"
+      "url": "https://www.fm88ayacucho.com/"
     },
     {
       "id": 1,
