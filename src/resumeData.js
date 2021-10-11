@@ -1,7 +1,7 @@
 let resumeData = {
   "id": 0,
   "name": "Juan Cruz Membrilla",
-  "role": "Frontend Developer",
+  "role": "Front end Developer",
   "linkedinId":"Your LinkedIn Id",
   "skypeid": "Your skypeid",
   "roleDescription": "Me gusta incursionar en varias partes del desarrollo y seguir aprendiendo sobre nuevas tecnologías. Enfoncado (en un principio) en la utilización de Java Script",
@@ -62,6 +62,10 @@ let resumeData = {
     {
       "id": 8,
       "skillname":"Vue"
+    },
+    {
+      "id": 9,
+      "skillname": "python"
     }
   ],
   "portfolio":[
@@ -70,14 +74,14 @@ let resumeData = {
       "name":"Sitio web (radio)",
       "description":"Stio web de radio  (en construcción). Utilizando React y Boostrap",
       "imgurl":"images/portfolio/fm88.jpg",
-      "url": "https://www.fm88ayacucho.com/"
+      "url": "https://tender-hypatia-0b5fd3.netlify.app/"
     },
     {
       "id": 1,
       "name":"Sitio web (ventas)",
       "description":"Sitio web de venta de productos (en construcción). Utlizando React y Bootstrap",
       "imgurl":"images/portfolio/perlanonna.png",
-      "url": "https://www.perlanonna.tk/"
+      "url": "https://elastic-cori-94922c.netlify.app/"
     },
   ]
 }

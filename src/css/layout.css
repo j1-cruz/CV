@@ -342,13 +342,19 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.python {
+   width: 30%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+
 .bootstrap {
   	width: 80%;
   	-moz-animation: bootstrap 2s ease;
   	-webkit-animation: bootstrap 2s ease;
 }
 .git {
-  	width: 55%;
+  	width: 60%;
   	-moz-animation: git 2s ease;
   	-webkit-animation: git 2s ease;
 }
@@ -388,63 +394,81 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: vuejs 2s ease;
 }
 
+@-moz-keyframes nodejs {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+ }
+
 @-moz-keyframes bootstrap {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes git {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 60%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes expressjs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+@-moz-keyframes css {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 40%;  }
-}
-@-moz-keyframes html5 {
+@-moz-keyframes html {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
 @-moz-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 60%;  }
 }
 @-moz-keyframes vuejs {
   0%   { width: 0px;  }
   100% { width: 30%;  }
 }
+@-moz-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 30%;  }
+ }
 
+
+@-webkit-keyframes nodejs {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+}
 @-webkit-keyframes bootstrap {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 80%;  }
 }
+@-webkit-keyframes expressjs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
 @-webkit-keyframes git {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 60%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 50%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes html {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
 @-webkit-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 60%;  }
 }
 @-webkit-keyframes vuejs {
   0%   { width: 0px;  }
   100% { width: 30%;  }
 }
+@-webkit-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 30%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
