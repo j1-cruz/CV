@@ -17,7 +17,7 @@ export default class Porfolio extends Component {
                   <div className="col-6">
                     <h4 className="">{item.name}</h4>
                     <p className="">{item.description}</p>
-                    <a href={item.url}>ir</a>
+                    <a href={item.url}>go to see</a>
                   </div>
                   </div>
                 </div>

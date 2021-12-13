@@ -71,15 +71,15 @@ let resumeData = {
   "portfolio":[
     {
       "id": 0,
-      "name":"Sitio web (radio)",
-      "description":"Stio web de radio  (en construcción). Utilizando React y Boostrap",
+      "name":"Website (radio)",
+      "description":"Radio website (under construction). Using React and Bootstrap",
       "imgurl":"images/portfolio/fm88.jpg",
       "url": "https://tender-hypatia-0b5fd3.netlify.app/"
     },
     {
       "id": 1,
-      "name":"Sitio web (ventas)",
-      "description":"Sitio web de venta de productos (en construcción). Utlizando React y Bootstrap",
+      "name":"Website (sales)",
+      "description":"Product sales website (under construction). Using React and Bootstrap",
       "imgurl":"images/portfolio/perlanonna.png",
       "url": "https://elastic-cori-94922c.netlify.app/"
     },
