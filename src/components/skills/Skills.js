@@ -7,7 +7,7 @@ export default  class Skills extends Component {
          <div className="row">
 
             <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
+               <h1><span>Main Skills</span></h1>
             </div>
 
             <div className="nine columns main-col">

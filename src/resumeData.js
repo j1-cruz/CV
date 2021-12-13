@@ -4,7 +4,7 @@ let resumeData = {
   "role": "Front end Developer",
   "linkedinId":"Your LinkedIn Id",
   "skypeid": "Your skypeid",
-  "roleDescription": "Me gusta incursionar en varias partes del desarrollo y seguir aprendiendo sobre nuevas tecnologías. Enfoncado (en un principio) en la utilización de Java Script",
+  "roleDescription": "I like to dabble in various parts of development and keep learning about new technologies. Focused (initially) on the use of Java Script.",
   "socialLinks":[
       {
         "id": 0,
@@ -17,11 +17,11 @@ let resumeData = {
   "education":[
     {
       "id": 0,
-      "UniversityName":"Escuela media n° 1 - Ayacucho",
+      "UniversityName":"Secondary: Middle school n° 1 Ayacucho",
     },
     {
       "id": 1,
-      "UniversityName":"Tecnicatura superior en análisis de sitema Cursando 2° año. Instituto de formacion Ayacucho",
+      "UniversityName":"Higher technical degree in system analysis Studying 2nd year. Training Institute Ayacucho Bs. As.",
     }
   ],
   

@@ -34,7 +34,7 @@ export default class About extends Component {
                   <div className="col-sm-8">2494-481402</div>
                 </div>
                 <div className="row mt-3">
-                  <div className="col-sm-4"><strong className="text-uppercase">Ingles:</strong></div>
+                  <div className="col-sm-4"><strong className="text-uppercase">English:</strong></div>
                   <div className="col-sm-8">Basic</div>
                 </div>
               </div>
