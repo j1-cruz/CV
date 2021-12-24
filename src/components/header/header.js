@@ -4,7 +4,7 @@ export default class Header extends Component {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
-      <header id="home" className="filterimg">
+      <header id="home" className="">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
