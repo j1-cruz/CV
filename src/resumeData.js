@@ -66,7 +66,7 @@ let resumeData = {
       "name":"Website (radio)",
       "description":"Radio PWA. Using React and Bootstrap",
       "imgurl":"images/portfolio/radio.jpg",
-      "url": "https://admiring-kare-6a5ec3.netlify.app/"
+      "url": "https://radiosargentinas.tk/"
     }
   ]
 }
