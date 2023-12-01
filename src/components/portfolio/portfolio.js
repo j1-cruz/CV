@@ -9,9 +9,9 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="col-6">
+                <div className="col-6 card">
                 <div className="row">
-                <div className="col-6">
+                <div className="col-6 mt-4">
                   <img src={`${item.imgurl}`}  width={200} heigth={200} alt={item.name} />
                 </div>
                   <div className="col-6">
